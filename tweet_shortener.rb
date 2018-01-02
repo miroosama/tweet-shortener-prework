@@ -29,7 +29,7 @@ end
  tweets.each do |tweet|
    puts word_substituter(tweet)
  end
-   
+
 end
 
 
