@@ -19,7 +19,8 @@ string.split.collect do |word|
   if dictionary.keys.include?(word.downcase)
     word = dictionary[word.downcase]
   else
-    wordend
+    word
+  end
   end.join(" ")
 end
 
